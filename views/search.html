@@ -13,7 +13,7 @@ Search
 <br><br>
 
 <div
-ng-repeat="m in movies">
+ng-repeat="m in movies | filter:movie">
 
 <img
 ng-src="{{m.Poster}}"
